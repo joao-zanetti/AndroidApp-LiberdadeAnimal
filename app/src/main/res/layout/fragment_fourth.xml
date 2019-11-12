@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView04"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teste"
+        android:contentDescription="aaaa"
+        android:id="@+id/img1"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp"
+        android:focusable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A cada ano milhões de animais morrem em testes cruéis e ineficazes. Cães, gatos, macacos, coelhos, ratos e outras espécies sofrem com dolorosos procedimentos, mutilações e solidão. Eles sentem dor, medo, agonia e precisam ter seus direitos à vida e à liberdade respeitados. São vidas conscientes, sentem, amam, vivem e respiram assim como todos nós."
+        android:id="@+id/textView"
+        android:textColor="#d5696264"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="O teste em animais é pouco confiável e seus resultados geralmente são diferentes em humanos. Mesmo se os testes apresentassem resultados mais confiáveis, o simples fato de se apropriar da vida de um animal, confiná-lo e torturá-lo em nosso próprio benéficio é errado."
+        android:id="@+id/textView1"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:textColor="#d5696264"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Atualmente a ciência têm a oferecer métodos alternativos mais confiáveis, rápidos e econômicos. Testes baseados em células humanas com modelos computacionais sofisticados, análise genômica, epiderme humana reconstituída e uma série de métodos eficazes em determinar a segurança do produto para o consumo humano."
+        android:id="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dogsuffer"
+        android:contentDescription="bbbbb"
+        android:id="@+id/img2"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp"
+        android:focusable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Para acabar com os testes em animais:"
+        android:id="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/img2"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-Pare ou evite ao máximo comprar produtos de empresas que testam em animais."
+        android:id="@+id/textView4"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-Conscientize ao máximo o próximo a não comprar tais produtos."
+        android:id="@+id/textView5"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-Faça reclamações às empresas que testam, afirmando que deixaram de consumir seus produtos pois são testados em animais."
+        android:id="@+id/textView6"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-Compartilhe o Liberdade Animal nas redes sociais."
+        android:id="@+id/textView7"
+        android:layout_marginTop="15dp"
+        android:textColor="#d5696264"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
+
+</ScrollView>

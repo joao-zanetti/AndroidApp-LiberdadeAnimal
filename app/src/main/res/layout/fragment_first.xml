@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECEFF1"
+        android:id="@+id/r1">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:contentDescription="logo"
+            android:id="@+id/logo"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:maxWidth="235dp"
+            android:maxHeight="235dp"
+            android:focusable="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="50"
+            android:text="Estima-se que mais de 100 milhões de animais sofrem e morrem vítimas de testes cruéis e ineficazes em todo o mundo. É hora de acabar com a dor de milhões de vidas. Veja ao lado a lista de empresas que testam e não testam em animais."
+            android:id="@+id/textView2"
+            android:textSize="18dp"
+            android:textColor="#d5696264"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/logo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Informações retiradas da organização dos direitos dos animais PETA."
+            android:id="@+id/textView3"
+            android:textSize="18dp"
+            android:textColor="#d5696264"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textView2"/>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
